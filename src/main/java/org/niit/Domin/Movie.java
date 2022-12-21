@@ -6,4 +6,8 @@
 package org.niit.Domin;
 
 public class Movie {
+
+    private String movieName;
+    private String movieId;
+    private String movieRating;
 }
