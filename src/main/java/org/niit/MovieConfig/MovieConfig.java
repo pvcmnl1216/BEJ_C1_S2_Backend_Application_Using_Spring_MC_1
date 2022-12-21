@@ -9,5 +9,7 @@ import org.niit.Domin.Movie;
 
 public class MovieConfig {
 
-
+    public Movie getDetails(){
+        return new Movie("Avatar2","2","9.2");
+    }
 }
