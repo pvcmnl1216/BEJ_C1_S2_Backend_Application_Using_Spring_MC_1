@@ -18,5 +18,6 @@ public class App
         ApplicationContext applicationContext = new AnnotationConfigApplicationContext(MovieConfig.class);
         Movie mov = applicationContext.getBean(Movie.class);
         System.out.println("mov = " + mov);
+
     }
 }
